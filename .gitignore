@@ -38,3 +38,13 @@ yarn-error.log*
 /.wrangler/
 /outputs/
 /work/
+
+# Removed Sites/Cloudflare starter infrastructure; Bemi Web is a static Next.js app on Vercel.
+/build/
+/db/
+/drizzle/
+/examples/
+/tests/
+/worker/
+/drizzle.config.ts
+/vite.config.ts
