@@ -44,7 +44,11 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="marquee" aria-label="Bemi benefits"><div>WAKE UP <b>•</b> MOVE FORWARD <b>•</b> NO SNOOZE SPIRAL <b>•</b> START CLEAR <b>•</b> WAKE UP <b>•</b> MOVE FORWARD</div></section>
+      <section className="marquee" aria-label="Wake up, move forward, no snooze spiral, start clear">
+        <div className="marquee-track">
+          {[0, 1, 2, 3].map((item) => <span key={item} aria-hidden={item > 0}>WAKE UP <b>•</b> MOVE FORWARD <b>•</b> NO SNOOZE SPIRAL <b>•</b> START CLEAR <b>•</b></span>)}
+        </div>
+      </section>
 
       <section id="how-it-works" className="section shell split-heading"><div><p className="eyebrow">A BETTER FIRST MINUTE</p><h2>Your morning needs momentum, not motivation.</h2></div><p className="section-intro">Bemi removes the half-awake decision-making. Set one plan tonight, then follow one clear path when morning arrives.</p></section>
 
