@@ -32,12 +32,13 @@ export default function Home() {
         <div className="hero-visual" aria-label="Bemi alarm preview">
           <span className="orb orb-one" aria-hidden="true" /><span className="orb orb-two" aria-hidden="true" />
           <div className="phone">
-            <div className="phone-status"><span>7:49</span><span>● ●●</span></div>
-            <div className="phone-brand"><img src="/bemi-icon.png" alt="" width="34" height="34" /><strong>Bemi</strong><span className="streak">🔥 4</span></div>
-            <p className="phone-kicker">NEXT WAKEUP</p>
-            <div className="alarm-card"><div><strong>Tomorrow</strong><span>Alarm in 11 hours</span></div><time>7:50</time><div className="alarm-options"><span><small>MISSION</small>Movement</span><span><small>SOUND</small>Morning birds</span></div></div>
-            <div className="week-card"><span>SU</span><span>MO</span><span>TU</span><span>WE</span><span>TH</span><span>FR</span><span>SA</span><i /><i /><i /><i /><i /><i /><i /></div>
-            <div className="phone-nav"><span>⌂</span><span>◷</span><strong>+</strong><span>▥</span><span>⚙</span></div>
+            <img
+              className="phone-screenshot"
+              src="/bemi-home-screen.png"
+              alt="The real Bemi home screen showing the next wake-up, alarm mission, sound, and weekly progress"
+              width="1179"
+              height="2556"
+            />
           </div>
           <div className="floating-card floating-streak"><span>🔥</span><div><strong>4 day streak</strong><small>Keep showing up</small></div></div>
           <div className="floating-card floating-ready"><span>✓</span><div><strong>Alarm ready</strong><small>Tomorrow at 7:50</small></div></div>
