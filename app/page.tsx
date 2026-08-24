@@ -40,8 +40,8 @@ export default function Home() {
               height="2556"
             />
           </div>
-          <div className="floating-card floating-streak"><span>🔥</span><div><strong>4 day streak</strong><small>Keep showing up</small></div></div>
-          <div className="floating-card floating-ready"><span>✓</span><div><strong>Alarm ready</strong><small>Tomorrow at 7:50</small></div></div>
+          <div className="floating-card floating-streak"><span>🔥</span><div><strong>6 day streak</strong><small>Keep showing up</small></div></div>
+          <div className="floating-card floating-ready"><span>✓</span><div><strong>Alarm ready</strong><small>07:00 · in 8 hours</small></div></div>
         </div>
       </section>
 
